@@ -4,14 +4,14 @@ function loop(x) {
     // do stuff
     loop(x + 1);
   } 
-  try {
-  loop(0);
-  }
-  catch {
-        console.log("Internal Error Detected!");
-    }
+  // try {
+  // loop(0);
+  // }
+  // catch {
+  //       console.log("Internal Error Detected!");
+  //   }
   
 
   module.exports = {
-      ErrorEvent
+      loop
   }
